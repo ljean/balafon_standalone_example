@@ -12,11 +12,13 @@ Clone this project in a project folder on your machine
 It is recommended to create a virtualenv for your project
 
     pip install django==1.8.9
+
     pip install balafon
+
     pip install django-modeltranslation
 
-
     python manage.py migrate
+
     python manage.py sync_translation_fields
 
     python manage.py createsuperuser
