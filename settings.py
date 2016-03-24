@@ -207,7 +207,7 @@ BALAFON_ALLOW_SINGLE_CONTACT = True
 #BALAFON_INDIVIDUAL_ENTITY_ID = 3
 
 # True if you want to hide the entity type
-BALAFON_NO_ENTITY_TYPE = True
+BALAFON_NO_ENTITY_TYPE = False
 
 # If your newsletter is developped with an external tool. Urls to download it
 BALAFON_NEWSLETTER_SOURCES = (
@@ -289,8 +289,6 @@ BALAFON_ALLOW_COUPLE_GENDER = True
 BALAFON_EMAILING_SENDER_CHOICES = (
     ('your.name@your.domain.com ','your.name@your.domain.com'),
 )
-
-
 
 LOGIN_REDIRECT_URL = "/"
 
