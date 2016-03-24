@@ -318,6 +318,7 @@ INSTALLED_APPS = (
     'coop_bar',
     'wkhtmltopdf',
     'captcha',
+    'rest_framework',
 
     'basic_cms',
 
